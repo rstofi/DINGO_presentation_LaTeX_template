@@ -18,7 +18,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Deep Investigation of Neutral Gas Origins}
 \subtitle{-- beamer template --}
-\author[Krist\'of Rozgonyi]{\textbf{Krist\'of Rozgonyi{\Large \inst{1,}\inst{2}}}\\ {\Large Survey PI: Martin Meyer{\large \inst{1,}\inst{2}}}} %Note that the inst signs fontsize have to be set here to match with author size 
+\author[Krist\'of Rozgonyi]{\textbf{Krist\'of Rozgonyi\inst{1,}\inst{2}}\\ {\Large Survey CEO: Martin Meyer\inst{1,}\inst{2}}}
 \date[today]{\today}
 \institute[ICRAR]{ \inst{1} International Centre for Radio Astronomy \\ \inst{2} The University of Western Australia}
 
@@ -31,7 +31,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Presentation body %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\addtocounter{framenumber}{-1}  %the next frame will start from number 1 instead of 2
 \title{Change title to write something to footnote} %This is really a quick and dirty solution
 \begin{frame}{Frame title}
   \textbf{|} \hfill <-- \hfill this is the textwidth \hfill --> \hfill \textbf{|}\\

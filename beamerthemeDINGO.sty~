@@ -86,17 +86,10 @@
       \hbox{
         \begin{beamercolorbox}[leftskip=.3cm,wd=\paperwidth,ht=0.03\paperwidth,sep=0.1cm]{foot}%
           \usebeamerfont{foot}
-		  \begin{columns}[T]
-		    \begin{column}{0.9\paperwidth}
-              \hskip 15pt              
+              %\insertshortauthor~|~\insertshorttitle %uncomment to insert author and tittle to footnote
               \insertshorttitle %change title to change footline text -> quck and dirty method
               \hfill
-    		    \end{column}
-		    \begin{column}{0.1\paperwidth}
-               \hskip 15pt              
-              \textbf{\insertframenumber}%/\inserttotalframenumber %uncomment to set page/all page format
-		    \end{column}
-		  \end{columns}
+              \insertframenumber%/\inserttotalframenumber %uncomment to set page/all page format
         \end{beamercolorbox}%
       }
       \vskip0pt
@@ -111,7 +104,7 @@
     \usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor
     \vskip 0.01\paperwidth
     \usebeamerfont{institute}\usebeamercolor[fg]{institute}\insertinstitute
-    \vskip 0.05\paperwidth
+    \vskip 0.03\paperwidth
     \usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate
 	  
     \begin{tikzpicture}[remember picture,overlay]
